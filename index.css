@@ -16,7 +16,6 @@ body{
 }
 .sliders1{
     width: 50% !important;
-    /* height: 400px !important; */
     margin-left: 400px !important;
     position: absolute !important;
     top: 2875px;
@@ -26,7 +25,6 @@ body{
 }
 .sliders2{
     width: 50% !important;
-    /* height: 400px !important; */
     margin-left: 400px !important;
     position: absolute !important;
     top: 3450px;
@@ -36,7 +34,6 @@ body{
 }
 .sliders3{
     width: 50% !important;
-    /* height: 400px !important; */
     margin-left: 400px !important;
     position: absolute !important;
     top: 4050px;
@@ -45,7 +42,8 @@ body{
     border-radius: 10px;
 }
 .carousel_img{
-    height: 450px !important;
+    height: 600px !important;
+    overflow: scroll !important;
 }
 .nav-tabs{
     display: flex !important;
@@ -55,6 +53,10 @@ body{
 }
 .nav-item{
     margin-left: 10px !important;
+}
+.link{
+    color: blue;
+    text-decoration: underline;
 }
 .img{
     position: absolute;
