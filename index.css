@@ -57,6 +57,8 @@ body{
 .link{
     color: blue;
     text-decoration: underline;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .img{
     position: absolute;
