@@ -1,3 +1,48 @@
+@media only screen and (max-width: 600px){
+    #name {
+        color: red;
+        height: 100px;
+        font-size: calc(42px + 1.1vw) !important;
+        position: relative;
+        margin-top: 160px;
+        animation: changeColor 5s infinite;
+    }
+
+    .nav-item{
+        margin-left: 10px !important;
+        width: 15% !important;
+        font-size: 1vw !important;
+        text-align: center;
+    }
+
+    .nav-link{
+        width: 100% !important;
+        position: relative !important;
+    }
+
+    #horoscopesCarousel{
+        width: 50% !important;
+        position: absolute !important;
+        left: 160px !important;
+        top: 25px !important;
+    }
+    #greenExchangeCarousel{
+        width: 50% !important;
+        position: absolute !important;
+        left: 160px !important;
+        top: 25px !important;
+
+    }
+    #adventureConnectCarousel{
+        width: 100% !important;
+        position: absolute !important;
+        left: 160px !important;
+        top: 25px !important;
+    }
+
+}
+
+
 
 tr td {
     padding: 2% 0;
@@ -14,19 +59,32 @@ body{
     height: 160px;
     padding: 5% 0px;
     background-image: linear-gradient(seagreen 55%, lightblue);
+    position: relative;
+}
+.profLinks{
+    position: absolute; 
+    bottom: 20px; 
+    width: 40%;
+    left: 1px
+}
+.navLinks{
+    position: absolute; 
+    bottom: 20px;
+    width: 60%;
+    right: 1px
 }
 .details{
     font-size: 2vw;
 }
 .det2{
-    padding-left: 4%;
+    padding-left: 8%;
 }
 #horoscopesCarousel{
     width: 50% !important;
     height: auto;
     position: absolute !important;
     left: calc(175px + 10%);
-    top: 2%;
+    top: 10px;
     border: 6px solid black;
     border-radius: 10px;
 }
@@ -35,7 +93,7 @@ body{
     height: auto;
     position: absolute !important;
     left: calc(200px + 10%);
-    top: 7%;
+    top: 20px;
     border: 6px solid black;
     border-radius: 10px;
 }
@@ -54,8 +112,7 @@ body{
 }
 .nav-tabs{
     display: flex !important;
-    justify-content: flex-end !important;
-    padding-right: 20px;
+    justify-content: space-around !important;
     text-decoration: none;
 }
 .nav-item{
@@ -80,7 +137,7 @@ body{
 #name {
     color: red;
     height: 100px;
-    font-size: calc(45px + 2vw);
+    font-size: calc(42px + 2vw);
     position: relative;
     margin-top: 160px;
     animation: changeColor 5s infinite;
