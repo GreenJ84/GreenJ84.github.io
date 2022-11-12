@@ -1,41 +1,27 @@
-const changeColor = () => {
-    const colors = ['yellow', 'red', 'blue', 'green', 'orange', 'lightgreen', 'pink', 'purple', 'black', 'grey', 'seagreen', 'skyblue']
-    let x = Math.ceil(Math.random()*colors.length)
-    document.getElementById('name').style.color = colors[x];
-}
 const openHoroscopes = () => {
-    console.log('here')
-    console.log(document.getElementById('horoscopesCarousel').style.visibility)
 
-    if (document.getElementById('horoscopesCarousel').style.visibility === 'hidden'){
-        console.log('what')
-        document.getElementById('horoscopesCarousel').style.visibility = 'visible';
+    if (document.getElementById('horoscopesCarousel').style.display === 'none'){
+        document.getElementById('horoscopesCarousel').style.display = 'block';
     } else {
-        document.getElementById('horoscopesCarousel').style.visibility = 'hidden'
+        document.getElementById('horoscopesCarousel').style.display = 'none'
     }
     return;
 }
 const openGreenExchange = () => {
-    console.log('here')
-    console.log(document.getElementById('greenExchangeCarousel').style.visibility)
 
-    if (document.getElementById('greenExchangeCarousel').style.visibility === 'hidden'){
-        console.log('what')
-        document.getElementById('greenExchangeCarousel').style.visibility = 'visible';
+    if (document.getElementById('greenExchangeCarousel').style.display === 'none'){
+        document.getElementById('greenExchangeCarousel').style.display = 'block';
     } else {
-        document.getElementById('greenExchangeCarousel').style.visibility = 'hidden'
+        document.getElementById('greenExchangeCarousel').style.display = 'none'
     }
     return;
 }
 const openAdventureConnect = () => {
-    console.log('here')
-    console.log(document.getElementById('adventureConnectCarousel').style.visibility)
 
-    if (document.getElementById('adventureConnectCarousel').style.visibility === 'hidden'){
-        console.log('what')
-        document.getElementById('adventureConnectCarousel').style.visibility = 'visible';
+    if (document.getElementById('adventureConnectCarousel').style.display === 'none'){
+        document.getElementById('adventureConnectCarousel').style.display = 'block';
     } else {
-        document.getElementById('adventureConnectCarousel').style.visibility = 'hidden'
+        document.getElementById('adventureConnectCarousel').style.display = 'none'
     }
     return;
 }
