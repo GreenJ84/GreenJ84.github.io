@@ -107,6 +107,7 @@ div.languages > img{
     top: 40px;
     border: 6px solid black;
     border-radius: 10px;
+    z-index: 50;
 }
 #greenExchangeCarousel{
     width: 100% !important;
@@ -115,6 +116,8 @@ div.languages > img{
     top: 40px;
     border: 6px solid black;
     border-radius: 10px;
+    z-index: 50;
+
 }
 #adventureConnectCarousel{
     height: auto;
@@ -122,6 +125,8 @@ div.languages > img{
     top: 40px;
     border: 6px solid black;
     border-radius: 10px;
+    z-index: 50;
+
 }
 .carousel_img{
     height: auto !important;
